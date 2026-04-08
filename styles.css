@@ -4,11 +4,15 @@ img {
 }
 body{
     text-align: center;
-    font-family: "Arial";
-    background: deepskyblue;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+"Segoe UI", Roboto, sans-serif;
+    min-height: 100vh;
+    background-color: #000000;
+    background-image: radial-gradient(
+        rgba(255, 255, 255, 0.14) 1px,
+        transparent 1px
+    );
+    background-size: 24px 24px;
 }
-
-.Biography{
-        text-align: left;
-    }
     
