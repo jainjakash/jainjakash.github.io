@@ -15,4 +15,13 @@ body{
     );
     background-size: 24px 24px;
 }
+
+.outreach {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.outreach:hover {
+    color: white;
+}
     
