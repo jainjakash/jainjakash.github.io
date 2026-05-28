@@ -23,15 +23,14 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 500px;
+    max-width: clamp(320px, 90vw, 500px);
     flex: 1;
 } 
 
 .links {
     display: flex;
     margin-bottom: 100px;
-    min-width: 400px;
-    justify-content: space-between;
+    gap: 20px;
 }
 
 .back-to-home {
